@@ -2,7 +2,6 @@ import React from "react";
 import { View, Text, StyleSheet, TextInput } from "react-native";
 const Exercise = (props) => {
   const Exercises = props.exercises.map((e) => {
-    console.log(e.id);
     return (
       <View
         style={styles.container}
