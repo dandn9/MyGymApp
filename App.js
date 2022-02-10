@@ -2,6 +2,7 @@ import { StatusBar } from "expo-status-bar";
 import React, { useState } from "react";
 import { StyleSheet, Text, View, Button, TextInput, Modal } from "react-native";
 import Exercise from "./src/Exercise";
+import ExerciseModal from "./src/ExerciseModal";
 import Header from "./src/Header";
 import styles from "./src/StyleSheet";
 
@@ -39,7 +40,7 @@ export default function App() {
       <Text>Lol</Text>
       <Button title="Hey"></Button>
       <StatusBar style="auto" />
-      {openModal.open}
+      {openModal.open && <ExerciseModal modalId={openModal.id} />}
       <TextInput style={styles.input}></TextInput>
       <Exercise exercises={exercises} onTap={clickOnExercise}></Exercise>
     </View>

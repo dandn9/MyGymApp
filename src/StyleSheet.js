@@ -10,6 +10,26 @@ const styles = StyleSheet.create({
     borderWidth: 2,
     borderStyle: "solid",
   },
+  modalContainer: {
+    marginTop: 20,
+  },
+  modalView: {
+    marginLeft: "auto",
+    marginRight: "auto",
+    marginTop: "auto",
+    marginBottom: "auto",
+    width: 100,
+    height: 100,
+    backgroundColor: "grey",
+    shadowColor: "#000",
+    shadowOffset: {
+      width: 100,
+      height: 50,
+    },
+    shadowOpacity: 0.9,
+    shadowRadius: 5,
+    elevation: 5,
+  },
 });
 
 export default styles;
