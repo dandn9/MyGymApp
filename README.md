@@ -1,2 +1,2 @@
 # MyGymApp (unfinished)
-React Native workout tracker app 
+React Native workout tracker mobile app 
